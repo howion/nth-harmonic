@@ -1,0 +1,39 @@
+{
+  "name": "nth-harmonic",
+  "version": "1.0.0",
+  "description": "Computes nth harmonic number.",
+  "main": "./dist/js/index.js",
+  "types": "./dist/lib/index.d.ts",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/howion/nth-harmonic.git"
+  },
+  "keywords": [
+    "math",
+    "mathematics",
+    "library",
+    "typescript",
+    "javascript"
+  ],
+  "bugs": {
+    "url": "https://github.com/howion/nth-harmonic/issues"
+  },
+  "author": "howion",
+  "license": "MIT",
+  "dependencies": {
+    "math-digamma": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.10",
+    "del": "^4.0.0",
+    "gulp": "^4.0.0",
+    "gulp-clip-empty-files": "^0.1.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-typescript": "^5.0.1",
+    "merge2": "^1.2.3",
+    "typescript": "^3.3.4000"
+  }
+}
