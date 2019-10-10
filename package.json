@@ -1,7 +1,7 @@
 {
   "name": "nth-harmonic",
-  "version": "1.0.0",
-  "description": "Computes nth harmonic number.",
+  "version": "1.0.1",
+  "description": "Computes nth harmonic number from digamma function.",
   "main": "./dist/js/index.js",
   "types": "./dist/lib/index.d.ts",
   "scripts": {
