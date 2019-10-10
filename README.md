@@ -30,5 +30,5 @@ import nthHarmonic from 'nth-harmonic' // ES6 OR TYPESCRIPT
 nthHarmonic($n: number): number
 ```
 
-# License
+## License
 [**MIT**](https://github.com/howion/nth-harmonic/blob/master/LICENSE)
