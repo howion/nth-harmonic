@@ -4,12 +4,16 @@ Computes **nth** harmonic number from [**digamma function**](https://en.wikipedi
 
 ![](https://raw.githubusercontent.com/howion/box/master/nth-harmonic/harmonic-series-digamma-relationship.png)
 
+## Why
+
+Because its much faster then casual summing operation for large values of **`n`** and its more precise.
+
 ## Installation
 
-From [**NPM**]()
+From [**NPM**](https://www.npmjs.com/package/nth-harmonic)
 
 ```bash
-$ npm install harmonic-series
+$ npm install nth-harmonic
 ```
 
 ## Usage
@@ -25,3 +29,6 @@ import nthHarmonic from 'nth-harmonic' // ES6 OR TYPESCRIPT
 ```js
 nthHarmonic($n: number): number
 ```
+
+# License
+[**MIT**](https://github.com/howion/nth-harmonic/blob/master/LICENSE)
