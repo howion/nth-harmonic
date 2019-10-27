@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "Computes nth harmonic number from digamma function.",
   "main": "./dist/js/index.js",
-  "types": "./dist/lib/index.d.ts",
+  "types": "./dist/definitions/index.d.ts",
   "scripts": {
     "start": "gulp"
   },
