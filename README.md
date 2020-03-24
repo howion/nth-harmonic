@@ -1,12 +1,12 @@
 # nth-harmonic
 
-Computes **nth** harmonic number from [**digamma function**](https://en.wikipedia.org/wiki/Digamma_function).
+Computes **nth** harmonic number with [**digamma function**](https://en.wikipedia.org/wiki/Digamma_function).
 
 ![](https://raw.githubusercontent.com/howion/box/master/nth-harmonic/harmonic-series-digamma-relationship.png)
 
 ## Why
 
-Because its much faster then casual summing operation for large values of **`n`** and its more precise.
+Because it's much faster then casual summing operation for large values of **`n`** and it's more precise.
 
 ## Installation
 
