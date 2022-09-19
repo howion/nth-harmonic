@@ -1,3 +1,9 @@
+const { task, src, dest, series, watch } = require('gulp')
+const plumber = require('gulp-plumber')
+const ts      = require('gulp-typescript')
+const merge2  = require('merge2')
+const clip    = require('gulp-clip-empty-files')
+
 // CONFIGS
 const RELEASE_DIR = './dist'
 const DEFINITIONS_RELEASE_DIR = RELEASE_DIR + '/definitions'
@@ -6,14 +12,6 @@ const DEV_DIR = './src'
 
 // PATTERNS
 const DEV_DIR_TS = DEV_DIR + '/**/*.ts'
-
-// PACKAGES
-const { task, src, dest, series, watch } = require('gulp'),
-       plumber = require('gulp-plumber'),
-       del     = require('del'),
-       ts      = require('gulp-typescript'),
-       merge2  = require('merge2'),
-       clip    = require('gulp-clip-empty-files')
 
 // FOR GENERATING JS FILES
 let tsProjectJs = ts.createProject('tsconfig.json', {
@@ -24,11 +22,6 @@ let tsProjectJs = ts.createProject('tsconfig.json', {
 let tsProjectDefinition = ts.createProject('tsconfig.json', {
     declaration: true,
     removeComments: false
-})
-
-// FRESH START
-task('clean', function() {
-    return del([ RELEASE_DIR ], { force: true })
 })
 
 // COMPILE SCRIPTS
