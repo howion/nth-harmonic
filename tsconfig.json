@@ -9,10 +9,15 @@
         "strict": false,
         "esModuleInterop": true,
         "alwaysStrict": true,
-        "declaration": true
+        "declaration": true,
+        "emitDeclarationOnly": true,
+        "outDir": "./dist"
     },
+    "include": [
+        "src"
+    ],
     "exclude": [
         "node_modules",
-        "dist"
+        "dist.bak"
     ]
 }

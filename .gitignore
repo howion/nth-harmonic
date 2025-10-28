@@ -1,3 +1,5 @@
+bun.lock
+
 # IGNORE NODE FOLDERS
 node_modules/
 
